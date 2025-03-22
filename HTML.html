@@ -8,11 +8,15 @@
 <body>
 
     <h2 style="text-align: center;">แบบสอบถาม</h2>
-    
     <form>
-        <table border="1" align="center" style="background-color: #f0f0f0; width: 50%;">
+        <table border="1" align="center" style="background-color: #ffce8a; width: 50%;">
+            <td><b>ข้อมูลผู้ตอบแบบสอบถาม</b></td>
             <tr>
                 <td><b>ชื่อ-นามสกุล:</b></td>
+                <td><input type="text" name="fullname" required></td>
+            </tr>
+            <tr>
+                <td><b>รหัสวิชานักศึกษา:</b></td>
                 <td><input type="text" name="fullname" required></td>
             </tr>
             <tr>
@@ -43,20 +47,51 @@
             <tr>
                 <td><b>แม่สีที่ชื่นชอบ:</b></td>
                 <td>
-                    <input type="color" name="color">
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                    <label for="vehicle1"> สีแดง</label><br>
+                    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                    <label for="vehicle2"> สีเขียว</label><br>
+                    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                    <label for="vehicle3"> สีน้ำเงิน</label><br><br>
                 </td>
             </tr>
             <tr>
                 <td><b>ผลไม้ที่ชื่นชอบ:</b></td>
-                <td><input type="text" name="fruit"></td>
+                <td>
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="มะม่วง">
+                    <label for="vehicle1"> มะม่วง</label><br>
+                    <input type="checkbox" id="vehicle2" name="vehicle2" value="น้อยน่า">
+                    <label for="vehicle2"> น้อยน่า</label><br>
+                    <input type="checkbox" id="vehicle3" name="vehicle3" value="ทุเรียน">
+                    <label for="vehicle3"> ทุเรียน</label><br><br>
+                    <input type="checkbox" id="vehicle4" name="vehicle4" value="ลำใย">
+                    <label for="vehicle1"> ลำใย</label><br>
+                    <input type="checkbox" id="vehicle5" name="vehicle5" value="ฝรั่ง">
+                    <label for="vehicle2"> ฝรั่ง</label><br>
+                    <input type="checkbox" id="vehicle6" name="vehicle6" value="แตงโม">
+                    <label for="vehicle3"> แตงโม</label><br><br>
+                </td>
             </tr>
             <tr>
                 <td><b>อาหารที่ชื่นชอบ:</b></td>
-                <td><input type="text" name="food"></td>
+                <td>
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="ต้มยำกุ้ง">
+                    <label for="vehicle1"> ต้มยำกุ้ง</label><br>
+                    <input type="checkbox" id="vehicle2" name="vehicle2" value="ไข่เจียวหมูสับ">
+                    <label for="vehicle2"> ไข่เจียวหมูสับ</label><br>
+                    <input type="checkbox" id="vehicle3" name="vehicle3" value="แกงข่าไก่">
+                    <label for="vehicle3"> แกงข่าไก่</label><br><br>
+                    <input type="checkbox" id="vehicle4" name="vehicle4" value="แกงเขียวหวาน">
+                    <label for="vehicle1"> แกงเขียวหวาน</label><br>
+                    <input type="checkbox" id="vehicle5" name="vehicle5" value="ผัดไทย">
+                    <label for="vehicle2"> ผัดไทย</label><br>
+                    <input type="checkbox" id="vehicle6" name="vehicle6" value="ราดหน้าหมี่กรอบ">
+                    <label for="vehicle3"> ราดหน้าหมี่กรอบ</label><br><br>
+                </td>
             </tr>
             <tr>
                 <td colspan="2" align="center">
-                    <input type="submit" value="ส่งแบบสอบถาม">
+                    <input type="submit" value="บันทึก">
                 </td>
             </tr>
         </table>
