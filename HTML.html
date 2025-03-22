@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>แบบสอบถาม</title>
+</head>
+<body>
+
+    <h2 style="text-align: center;">แบบสอบถาม</h2>
+    
+    <form>
+        <table border="1" align="center" style="background-color: #f0f0f0; width: 50%;">
+            <tr>
+                <td><b>ชื่อ-นามสกุล:</b></td>
+                <td><input type="text" name="fullname" required></td>
+            </tr>
+            <tr>
+                <td><b>เพศ:</b></td>
+                <td>
+                    <input type="radio" name="gender" value="male" checked> ชาย
+                    <input type="radio" name="gender" value="female"> หญิง
+                </td>
+            </tr>
+            <tr>
+                <td><b>สังกัดคณะ:</b></td>
+                <td>
+                    <select name="faculty">
+                        <option value="sci">วิทยาศาสตร์</option>
+                        <option value="eng">วิศวกรรมศาสตร์</option>
+                        <option value="bus">บริหารธุรกิจ</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><b>แม่สีที่ชื่นชอบ:</b></td>
+                <td>
+                    <input type="color" name="color">
+                </td>
+            </tr>
+            <tr>
+                <td><b>ผลไม้ที่ชื่นชอบ:</b></td>
+                <td><input type="text" name="fruit"></td>
+            </tr>
+            <tr>
+                <td><b>อาหารที่ชื่นชอบ:</b></td>
+                <td><input type="text" name="food"></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="ส่งแบบสอบถาม">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
